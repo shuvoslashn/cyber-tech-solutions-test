@@ -13,6 +13,10 @@ export default {
             screens: {
                 xl: "1280px",
             },
+            colors: {
+                sidebar: "#9398BF",
+                menubar: "#ADADAD",
+            },
         },
     },
     plugins: [],

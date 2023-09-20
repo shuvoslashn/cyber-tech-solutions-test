@@ -7,4 +7,7 @@
     * {
         @apply font-roboto font-[400];
     }
+    body {
+        line-height: 165%;
+    }
 }
