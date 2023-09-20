@@ -1,9 +1,9 @@
 import { useState } from "react";
 
 const Sidebar = () => {
-    const [toggleDropdown, setToggleDropdown] = useState(false);
+    const [toggleDropdown, setToggleDropdown] = useState(true);
     return (
-        <div>
+        <div className='text-black'>
             <h3 className='font-[500] mb-2 text-[18px]'>Sidebar</h3>
             {/* dropdown */}
             <div className='mb-2'>

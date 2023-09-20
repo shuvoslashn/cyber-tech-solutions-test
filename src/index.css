@@ -10,4 +10,10 @@
     body {
         line-height: 165%;
     }
+    a {
+        font-weight: 500;
+    }
+    .mobile-menu a {
+        @apply relative after:absolute after:w-0 after:h-2 after:bg-sidebar after:left-0 after:-bottom-4 after:duration-200 after:rounded-t-full hover:after:w-full;
+    }
 }
