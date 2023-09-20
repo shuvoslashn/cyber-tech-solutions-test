@@ -5,11 +5,11 @@ const Content = () => {
     return (
         <main className='flex'>
             {/* sidebar */}
-            <div className='hidden md:block w-[17.8125rem] bg-sidebar min-h-[calc(100vh-59px)] p-5'>
+            <div className='hidden md:block w-[17.8125rem] bg-sidebar min-h-screen pt-20 p-5'>
                 <Sidebar />
             </div>
             <div className='container py-5 md:px-24'>
-                <h1 className='text-[28px] md:text-[36px] font-[500] text-center mb-6'>
+                <h1 className='text-[28px] md:text-[36px] font-[500] text-center mb-6 mt-12 md:mt-20'>
                     Main Content
                 </h1>
                 <p>

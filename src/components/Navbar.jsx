@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
     return (
-        <header className='w-full bg-black text-white py-4'>
+        <header className='w-full bg-black text-white py-2 md:py-4 fixed z-10 top-0 left-0'>
             <div className='container flex justify-between md:justify-center'>
                 {/* Left Menu Icon */}
                 <div className='flex md:hidden gap-3 cursor-pointer'>
